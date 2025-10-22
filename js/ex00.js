@@ -41,5 +41,13 @@
 
          div = document.getElementById("container")
          div.appendChild(novo)
+   }
 
+   function removertexto(){
+         var p= document.getElementById("paragrafo")
+            if (p){
+                p.remove()
+            }else{
+                  alert("Não há texto para remover")
+            }
    }
